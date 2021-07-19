@@ -15,8 +15,17 @@ p,h1,h2,h3,h4{
 }
 
 /********************************NAVBAR*********************************************/
+#page-header .image-top{
+  position: absolute;
+  top:10%;
+  right:50%;
+}
 #navbarCollapse ul li a{
  color:#fff;
+ padding-top:40px;
+ display: flex;
+ justify-content:center;
+
 }
 .navbar{
   background-color: #0E0C38;
@@ -25,20 +34,30 @@ p,h1,h2,h3,h4{
 .navbar .nav-link{
   font-size:18px;
   font-weight:500;
-  color:#fff;
 }
 
 .navbar .nav-item.active{
 background-color: #fff;
 }
+
+#navbarCollapse ul li:hover{
+  background-color:#FF0513;
+ }
+ .navbar{
+  margin: 0;
+  padding-top: 0;
+}
+
 /************************************Header************************************************/
 #page-header{
   padding-top:150px;
   background-color: #0E0C38;
+  
 }
 #page-header h4{
   font-size:40px;
   font-size:300;
+  
 
 }
 #page-header h1{
@@ -259,6 +278,7 @@ figure:hover .project-description-overlay h3, figure:hover .project-description-
 }
 
 
+
 /************************************capabilities************************************************/
 
 #skills{
@@ -283,6 +303,10 @@ figure:hover .project-description-overlay h3, figure:hover .project-description-
 /****************************************media querry***********************************/
 
 @media only screen and (max-width: 768px) {
+  #navbarCollapse ul li a{
+    padding-top:0;
+   }
+
   #page-header h4{
     font-size:30px;
   }
