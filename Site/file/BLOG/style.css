@@ -1,0 +1,324 @@
+.wrapper {
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+
+}
+.footer-style{
+    padding:40px;
+    display:flex;
+    justify-content: center;
+    height: 144px;
+    background-color: #f4f7fc;
+    align-items: center;
+    margin:100px;
+
+    
+}
+
+.header {
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    margin:0 100 100;
+
+}
+
+.header-logo{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    margin:30 0 10;
+}
+
+.wrapper > * {
+    flex: 1 100%;
+}
+
+
+
+.main {
+    display: flex;
+    max-width: 800px;
+    width: 750px;
+    margin-right:100px;
+
+}
+
+
+.aside-1 {
+    display: block;
+    max-width: 300px;
+
+}
+
+/*--------------------articolul----------------------------*/
+
+
+.main-title{
+    width: 769px;
+    font-size: 72px;
+    color: #272b2b;
+    font-family: "Poppins";
+    margin: 0;
+}
+
+.circle {
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: #f2dce0;
+    margin: 0;
+    margin-bottom:30px;
+}
+
+.author-name{
+    display: flex;
+}
+
+.author-name-scris {
+    margin-left: 12px;
+    font-size: 13px;
+    color: #abaeaf;
+    font-family: "Poppins";
+
+}
+
+.padded-dropcap {
+    float: left;
+    font-family: "Droid Serif";
+    font-size: 100px;
+    line-height: 90px;
+    padding-right: 8px;
+    padding-left: 3px;
+}
+
+/*--------------------Paragrafele stilizate--------------------*/
+.paragraf {
+    width: 768px;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: "Droid Serif";
+    font-weight: 400;
+}
+
+/*-----------------Al doilea titlu------------------------------*/
+.myimg {
+    margin: 0;
+    margin-right: 30px;
+}
+
+hr.hr-style{
+    display:flex;
+    width: 170px;
+    height: 2px;
+    background-color: rgba(39,43,43,0.6);
+}
+
+.title2{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items: center;
+}
+.title-author{
+    font-size: 20px;
+    line-height: 36px;
+    color: #abaeaf;
+    font-family: "Droid Serif";
+    font-weight: 400;
+    text-align: center;
+}
+
+.titlu2-stil {
+    margin:0;
+    margin-top:35px;
+    justify-content: center;
+    width: 556px;
+    height: 81px;
+    font-size: 36px;
+    color: #272b2b;
+    font-family: "Droid Serif";
+    font-weight: 600;
+    text-align: center;
+
+}
+/*--------------Butoane de la final----------------------------------*/
+.buttons-place{
+    margin-right:262px; 
+    margin-bottom: 145px;
+}
+.buttons-style{
+    margin-left:11px;
+    width: 77px;
+    height: 32px;
+    background-color: rgba(26,25,24,0);
+    border: 1px solid rgba(39,43,43,0.08);
+    font-size: 13px;
+    line-height: 17px;
+    color: #abaeaf;
+    font-family: "Poppins";
+    font-weight: 400;
+}
+
+/*----------------------Sectiunea de comentarii-------------------*/
+
+.number-comm{
+    margin-top:30px;
+    font-size: 18px;
+    line-height: 32px;
+    color: #272b2b;
+    font-family: "Poppins"
+}
+.form{
+    display: flex;
+    margin-top:40px;
+
+}
+.form-style{
+    margin-left:10px;
+    display: flex;
+    flex-direction: column;
+}
+.user-name{
+    font-size: 13px;
+    color: #292d2e;
+    font-family: "Poppins";
+}
+textarea{
+    display: block;
+    width: 714px;
+    height: 100px;
+    background-color: #ffffff;
+    border: 1px solid rgba(39,43,43,0.1);
+}
+.form-button{
+    margin:0;
+    padding:0;
+    width: 105px;
+    margin-top:14px;
+    height: 34px;
+    background-color: #ffffff;
+    border: 1px solid rgba(39,43,43,0.15);
+    font-size: 13px;
+    color: #272b2b;
+    font-family: "Poppins";
+    position: relative;
+    left: 610px;
+
+}
+/*--------------------SIDEBAR-----------------------------------*/
+
+.aside-1-search {
+    display:inline-block;
+    border: 1px solid rgba(39,43,43,0.1);
+    width: 299px;
+    height:40px;
+}
+button{
+    border:0;
+    background-color:transparent;
+    float:right;
+    text-align: center;
+    font-family: "Font Awesome";
+    color: #676a6a;
+    font-size: 13px;
+    line-height: 33px;
+    margin:15 auto;
+}
+input[type=text]{
+    border:0;
+    margin:5px;
+    width:233px;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 33px;
+}
+
+.stil-header-title{
+    font-size: 14px;
+    line-height: 33px;
+    color: #272b2b;
+    font-family: "Poppins";
+    font-weight: 500;
+    margin:70 0 20;
+
+}
+/* ---------------------------CATEGORIES-----------------------*/
+.categories{
+    display:flex;
+    flex-direction:column;
+    font-size: 13px;
+    line-height: 33px;
+    color: #676a6a;
+    font-family: "Poppins";
+    font-weight: 400;
+}
+
+/* ----------------Popular Posts------------------------------*/
+.imgPopular{
+    margin:0;
+}
+
+.Popular{
+    display:flex;
+    flex-direction: column;
+}
+
+.Popularsub{
+    margin-bottom:15px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    color: #272b2b;
+    font-family: "Poppins";
+    font-weight: 500;
+
+}
+.scris{
+
+    margin-left:15px;
+
+}
+.data{
+    font-size: 12px;
+    color: #abaeaf;
+    font-family: "Poppins";
+}
+/* -----------------------Recent TweetsS--------------------------*/
+.tweets{
+    margin-top:34px;
+}
+
+.profilscris p{
+    padding:0;
+    margin:0;
+    font-size: 12px;
+    color: #272b2b;
+    font-family: "Poppins";
+    margin-left:64px;
+}
+
+.follow{
+    width: 299px;
+    height: 51px;
+    background-color: rgba(39,43,43,0);
+    border: 1px solid #272b2b;
+    font-size: 12px;
+    color: #272b2b;
+    font-family: "Poppins";
+    margin-bottom:65px;
+
+}
+/*---------------Instagram Photos--------------------------------*/
+
+.instagram{
+    padding:1px;
+    margin:0;
+    margin-right:12px;
+    margin-top:12px;
+}

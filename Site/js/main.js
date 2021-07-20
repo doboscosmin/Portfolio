@@ -7,11 +7,10 @@ TweenMax.fromTo('#page-header .image-bot ', 0.8, { x:80, opacity: 0 }, {x: -20, 
 
 $('#skills .hov-eff').hover(function() {
   TweenMax.to($(this), 0.5, { y:-10, scale: 1.03 });
-  TweenMax.to($(this), 0.5, { boxShadow: '0 0 1px rgba(0,0,0,0.36)'  });
+  TweenMax.to($(this), 0.5, { boxShadow: '0 0 1px rgba(0,0,0,0.3)'  });
 },
-                                  function() {
+   function() {
   TweenMax.to($(this), 0.5, { y:0, scale: 1 });
   TweenMax.to($(this), 0.5, { boxShadow: '0 0 1px rgba(0,0,0,0.06)'  });
 });
 
-var ctrl = new ScrollMagic.Controller();
