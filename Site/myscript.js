@@ -1,4 +1,5 @@
 
+
 $('#carouselExampleControls').on('slide.bs.carousel', function (e) {
   
     var $e = $(e.relatedTarget);
@@ -19,4 +20,6 @@ $('#carouselExampleControls').on('slide.bs.carousel', function (e) {
         }
     }
     });
+
+    
 

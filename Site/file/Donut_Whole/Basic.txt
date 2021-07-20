@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title> </title>
+
+</head>
+
+
+
+
+         <body>
+
+           <nav>
+
+
+           </nav>
+
+
+         </body>
+
+
+
+
+
+</html>
+
+  http://colorschemedesigner.com/csd-3.5/=Culori
+
+http://specificity.keegan.st/=Ceva de spatii
+
+https://alistapart.com/article/css-floats-101#snippet16=Site de asezare
+
+https://www.cssfontstack.com/Web-Fonts=fonturi 
+
+ 
+
+Clouds by voore vg(70)/pg(30)
+
